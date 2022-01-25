@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  // background: rgb(15, 129, 91);
+  margin: 2em;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #f5f5f5;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f55a5a;
+  color: white;
+  padding: 1.5em 1.1em;
+}
+
+a {
+  color: #918e9b;
+}
+
+.container > img {
+  width: 11em;
+  height: 12em;
+  margin: 1rem;
+  border-radius: 0.5em;
+}
+
+.UpperPart {
+  flex-direction: column;
+  display: flex;
+}
+.lowerPart {
+  padding-right: 30%;
+}
+
+.maps {
+  display: flex;
+  flex-direction: row;
+}
+
+.location {
+  padding-right: 1em;
+  letter-spacing: 0.17em;
+}
+
+.title {
+  margin-top: -0.1em;
+  font-size: 2em;
+}
